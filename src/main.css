@@ -1,0 +1,62 @@
+@font-face{
+  font-family:'Graublau Web';
+  src: url('GraublauWeb.eot'); /* here you go, IE */
+}
+@font-face{
+  font-family:'Graublau Web';
+  src: url(//:) format ('no404'), url('GraublauWeb.otf') format('opentype'); /* everyone else take this - it is bulletproof */
+}
+html {
+  /* top, transparent red */
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.80),
+      rgba(0, 0, 0, 0.80)
+    ),
+    /* bottom, image */
+  url(https://static.pexels.com/photos/6471/woman-hand-smartphone-desk.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+  color: #f2f2f2;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  margin: 50px 450px 50px 450px;
+}
+.header {
+  font-weight: bold;
+}
+.tagline {
+
+}
+.skills {
+
+}
+.contact {
+
+}
+h1 {
+  color: #4d9990;
+}
+h2 {
+  color: #e6e6e6;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+h3 {
+  color: #7ebeb7;
+}
+h4 {
+  color: #e6e6e6;
+  font-family: 'Graublau Web';
+}
+p {
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+a {
+  color: #4d9990;
+}
+ul {
+
+}
